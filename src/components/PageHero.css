@@ -1,0 +1,67 @@
+/* Page hero banner – padding-based height to match Finishing hero */
+/* Override .page-section so the hero shares the same vertical rhythm */
+.page-hero-wrapper.page-section {
+  min-height: unset;
+  padding: 150px 0 100px;
+}
+
+.page-hero-wrapper {
+  position: relative;
+  height: auto;
+  max-height: none;
+  width: 100%;
+  overflow: hidden;
+  background-color: #09637E;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.page-hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.page-hero-wrapper .page-hero-content {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+}
+
+.page-hero-wrapper .page-hero-content h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.page-hero-wrapper .page-hero-content .page-hero-lead {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0;
+  max-width: 720px;
+}
+
+/* Page body section below the hero */
+.page-body {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #EBF4F6;
+}
+
+.page-body.collections-page {
+  background-color: #fff;
+}
+
+.page-body.atelier-page {
+  background-color: #052A35;
+}
+
+.page-body.atelier-page h2,
+.page-body.atelier-page h3,
+.page-body.atelier-page p {
+  color: #EBF4F6;
+}

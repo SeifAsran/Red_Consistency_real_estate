@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap');
+
+@font-face {
+  font-family: 'CaskoLuxury';
+  src: url('./fonts/CaskoLuxuryDemoRegular-Wp5lE.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: "Fustat", sans-serif !important;
+  overflow-x: hidden;
+  width: 100%;
+  direction: ltr;
+  text-align: left;
+}
+
+/* Global containers alignment */
+.container {
+  max-width: 1200px;
+}
+
+/* Global button hover / interaction polish */
+button,
+.btn {
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card,
+.facility-card,
+.location-card,
+.property-row,
+.floating-info-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+@media (max-width: 991px) {
+  body {
+    overflow-x: hidden !important;
+  }
+}
+
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.btn{
+  outline: none !important;
+  border: none !important;
+}
+
+/* Global Button and Link Hover Effects */
+/* ===================================== */
+

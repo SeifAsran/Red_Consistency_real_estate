@@ -1,0 +1,34 @@
+/* Homepage luxury section styling */
+
+/* Section headers: CaskoLuxury, centered, letter-spacing 0.2rem */
+.home-section-title {
+  font-family: var(--font-luxury) !important;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  color: #09637E;
+  margin-bottom: 1rem;
+}
+
+/* Override for dark sections (e.g. floorplans) */
+.floorplan-section .home-section-title.text-white {
+  color: #fff !important;
+}
+
+/* Vertical padding between homepage sections */
+.home-section-wrap {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.home-section-wrap:first-of-type {
+  padding-top: 0;
+}
+
+/* Tighter spacing between specific sections */
+.home-section-wrap-tight-top {
+  padding-top: 20px;
+}
+
+.home-section-wrap-tight-bottom {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.achievement-section {
+  padding: 80px 0;
+  background-color: #EBF4F6;
+}
+
+.achievement-heading {
+  font-family: var(--font-luxury);
+  text-align: center;
+  letter-spacing: 0.2rem;
+  color: #09637E;
+  margin-bottom: 3rem;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+}
+
+/* 4-column grid with glassmorphism */
+.achievement-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px rgba(5, 42, 53, 0.08);
+}
+
+/* Metallic thin borders between cells (linear-gradient) */
+.achievement-cell {
+  position: relative;
+  padding: 2.5rem 1.5rem;
+  border-right: 1px solid transparent;
+  background: linear-gradient(
+      to right,
+      rgba(122, 178, 178, 0.25) 0%,
+      rgba(9, 99, 126, 0.15) 50%,
+      rgba(122, 178, 178, 0.25) 100%
+    )
+    top right / 1px 100% no-repeat;
+}
+
+.achievement-cell:last-child {
+  border-right: none;
+  background-image: none;
+}
+
+.achievement-cell::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(122, 178, 178, 0.5) 20%,
+    rgba(9, 99, 126, 0.4) 50%,
+    rgba(122, 178, 178, 0.5) 80%,
+    transparent 100%
+  );
+}
+
+.achievement-cell:last-child::before {
+  display: none;
+}
+
+.achievement-stat {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.achievement-icon-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.achievement-icon {
+  color: #7AB2B2;
+  opacity: 0.9;
+}
+
+.achievement-number {
+  font-family: var(--font-luxury);
+  font-size: clamp(2.25rem, 4vw, 3.25rem);
+  font-weight: 700;
+  color: #09637E;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02rem;
+}
+
+.achievement-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  color: #052A35;
+  margin-bottom: 0.75rem;
+}
+
+.achievement-caption {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  color: #052A35;
+  opacity: 0.85;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tablet: 2 columns, keep glass and metallic dividers */
+@media (max-width: 992px) {
+  .achievement-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .achievement-cell {
+    border-right: none;
+    background: none;
+  }
+
+  .achievement-cell::before {
+    display: none;
+  }
+
+  .achievement-cell:nth-child(odd) {
+    border-right: 1px solid transparent;
+    background: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(122, 178, 178, 0.35) 100%
+      )
+      top right / 1px 100% no-repeat;
+  }
+
+  .achievement-cell:nth-child(n + 3) {
+    border-top: 1px solid transparent;
+    background-image: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(122, 178, 178, 0.35) 50%,
+      transparent 100%
+    );
+    background-size: 100% 1px;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  .achievement-cell:nth-child(odd):nth-child(n + 3) {
+    background: linear-gradient(
+          to right,
+          transparent 0%,
+          rgba(122, 178, 178, 0.35) 100%
+        )
+        top right / 1px 100% no-repeat,
+        linear-gradient(
+          90deg,
+          transparent 0%,
+          rgba(122, 178, 178, 0.35) 50%,
+          transparent 100%
+        )
+        top center / 100% 1px no-repeat;
+  }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 576px) {
+  .achievement-section {
+    padding: 56px 0;
+  }
+
+  .achievement-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .achievement-cell {
+    padding: 2rem 1.25rem;
+    border-right: none;
+    background: none !important;
+  }
+
+  .achievement-cell:not(:last-child) {
+    border-bottom: 1px solid rgba(122, 178, 178, 0.4);
+    box-shadow: 0 1px 0 0 rgba(9, 99, 126, 0.15);
+  }
+}

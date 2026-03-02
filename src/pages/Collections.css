@@ -1,0 +1,229 @@
+ .collections-body {
+  background: radial-gradient(circle at 0% 0%, #0d3c4b 0%, #021217 55%, #01090d 100%);
+  padding: 80px 0 110px;
+}
+
+.collections-layout {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 36px;
+  align-items: flex-start;
+}
+
+.collections-sidebar {
+  position: sticky;
+  top: 110px;
+  align-self: flex-start;
+  display: flex;
+  gap: 16px;
+}
+
+.sidebar-inner {
+  flex: 1;
+}
+
+.sidebar-title {
+  font-size: 0.95rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #ebf4f6;
+  margin: 0 0 10px;
+}
+
+.sidebar-copy {
+  margin: 0 0 16px;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: rgba(235, 244, 246, 0.8);
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sidebar-link {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      sans-serif;
+  font-size: 0.86rem;
+  color: rgba(235, 244, 246, 0.78);
+  padding: 6px 0;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(122, 178, 178, 0.16);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.sidebar-link:hover {
+  color: #7ab2b2;
+  border-bottom-color: rgba(122, 178, 178, 0.55);
+}
+
+.sidebar-divider {
+  width: 1px;
+  border-radius: 999px;
+  background: linear-gradient(
+    to bottom,
+    rgba(122, 178, 178, 0),
+    rgba(122, 178, 178, 0.8),
+    rgba(122, 178, 178, 0)
+  );
+}
+
+.collections-grid-mosaic {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 260px;
+  gap: 24px;
+}
+
+.collection-feature {
+  position: relative;
+}
+
+.feature-large {
+  grid-column: span 2;
+}
+
+.feature-small {
+  grid-column: span 1;
+}
+
+.collection-image-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  overflow: hidden;
+  background-color: #052a35;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow:
+    0 26px 65px rgba(0, 0, 0, 0.8),
+    0 0 0 1px rgba(235, 244, 246, 0.04);
+  transform: translateZ(0);
+}
+
+.collection-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  animation: collectionImageFadeIn 0.5s ease forwards;
+}
+
+@keyframes collectionImageFadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.collection-image-wrap::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 0% 0%, rgba(9, 99, 126, 0.08), transparent 55%);
+  pointer-events: none;
+}
+
+.collection-image-wrap:hover {
+  filter: grayscale(0.22);
+}
+
+.collection-info-card {
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+  padding: 14px 16px 12px;
+  border-radius: 18px;
+  background: rgba(5, 42, 53, 0.66);
+  border: 1px solid rgba(122, 178, 178, 0.85);
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.75),
+    0 0 0 1px rgba(235, 244, 246, 0.04);
+  backdrop-filter: blur(14px);
+}
+
+.collection-name {
+  font-size: 0.95rem;
+  letter-spacing: 0.18rem;
+  text-transform: uppercase;
+  color: #ebf4f6;
+  margin: 0 0 4px;
+}
+
+.collection-meta {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      sans-serif;
+  font-size: 0.85rem;
+  color: rgba(235, 244, 246, 0.86);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.collection-meta .dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 999px;
+  background: #7ab2b2;
+}
+
+.collection-hover-layer {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+
+.collection-image-wrap:hover .collection-hover-layer {
+  opacity: 1;
+}
+
+.collection-view-btn {
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: 1px solid #7ab2b2;
+  background: rgba(2, 18, 23, 0.92);
+  color: #ebf4f6;
+  font-size: 0.86rem;
+  letter-spacing: 0.16rem;
+  text-transform: uppercase;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1024px) {
+  .collections-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .collections-sidebar {
+    position: static;
+  }
+
+  .sidebar-divider {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .collections-grid-mosaic {
+    grid-template-columns: minmax(0, 1fr);
+    grid-auto-rows: 220px;
+  }
+
+  .feature-large,
+  .feature-small {
+    grid-column: span 1;
+  }
+}
+

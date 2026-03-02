@@ -1,0 +1,93 @@
+.gallery-section {
+    background-color: #EBF4F6;
+    overflow: hidden;
+}
+
+.gallery-label {
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Controls */
+.slider-controls .control-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: #7AB2B2; /* Palette color */
+    color: #09637E;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.slider-controls .control-btn:hover {
+    background-color: #088395;
+    color: white;
+}
+
+/* Slider Logic */
+.gallery-slider-viewport {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.gallery-slider-track {
+    display: flex;
+    gap: 30px;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    padding-left: 5%;
+}
+
+.gallery-card {
+    min-width: 45%;
+    height: 500px;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+/* Image scaling for inactive slides */
+.gallery-card:not(.active) {
+    transform: scale(0.95);
+    opacity: 0.7;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Card Label Overlay */
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.6));
+    display: flex;
+    justify-content: center;
+}
+
+.room-title {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .gallery-card {
+        min-width: 85%;
+    }
+    .gallery-slider-track {
+        transform: none !important; /* Let standard scroll or simpler logic take over for mobile */
+        overflow-x: auto;
+    }
+}
+

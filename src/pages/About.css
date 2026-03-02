@@ -1,0 +1,113 @@
+.about-page-wrap {
+  background-color: #ffffff;
+  padding-bottom: 100px;
+}
+
+.about-hero {
+  padding: 120px 0 70px;
+  text-align: left;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px; /* Space between the Z-cards */
+  margin-top: 80px; /* Extra space between hero image and first card */
+}
+
+/* THE Z-SECTION CARD */
+.z-section {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  background: rgba(9, 99, 126, 0.08); /* base teal tint */
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(122, 178, 178, 0.4);
+  border-radius: 30px;
+  padding: 50px;
+  overflow: hidden;
+}
+
+/* Slightly deeper teal for alternating Z card */
+.z-section.reverse {
+  flex-direction: row-reverse;
+  background: rgba(5, 42, 53, 0.85);
+  border-color: rgba(122, 178, 178, 0.6);
+}
+
+.z-text {
+  flex: 1;
+}
+
+.z-image {
+  flex: 1;
+  height: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.z-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.z-section:hover .z-image img {
+  transform: scale(1.05);
+}
+
+/* Typography Fixes */
+.casko-font {
+  font-family: 'CaskoLuxury', serif;
+  font-size: 2.8rem;
+  color: #7AB2B2;
+  margin-bottom: 20px;
+  letter-spacing: 0.1rem;
+}
+
+.z-text p {
+  color: #052A35; /* dark teal on light cards */
+  line-height: 1.8;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Keep white text on the deeper teal reverse card */
+.z-section.reverse .z-text p {
+  color: #EBF4F6;
+}
+
+.btn-luxury {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 35px;
+  border: 1px solid #7AB2B2;
+  color: #7AB2B2;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.btn-luxury:hover {
+  background: #7AB2B2;
+  color: #052A35;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 968px) {
+  .z-section, .z-section.reverse {
+      flex-direction: column;
+      padding: 30px;
+      gap: 30px;
+  }
+  .z-image {
+      height: 250px;
+      width: 100%;
+  }
+  .casko-font {
+      font-size: 2rem;
+  }
+}

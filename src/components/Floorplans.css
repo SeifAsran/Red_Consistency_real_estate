@@ -1,0 +1,89 @@
+.floorplan-section {
+    background-color: #063a4a; /* Darker variant of #09637E for depth */
+    min-height: 100vh;
+    padding: 56px 0;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+}
+
+.floor-toggle-group {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.floor-btn {
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.floor-btn.active {
+    background-color: #7AB2B2;
+    color: #09637E;
+    font-weight: bold;
+}
+
+.floor-btn:hover:not(.active) {
+    color: #7AB2B2;
+}
+
+.stats-list {
+    max-width: 400px;
+}
+
+.stat-label {
+    opacity: 0.8;
+    font-size: 1.1rem;
+}
+
+.stat-value {
+    font-size: 1.1rem;
+}
+
+.border-secondary {
+    border-color: rgba(122, 178, 178, 0.3) !important;
+}
+
+.blueprint-container {
+    padding: 20px;
+}
+
+.blueprint-img {
+    filter: invert(1) brightness(1.5) opacity(0.8); /* Gives it that white blueprint look on dark bg */
+    max-height: 700px;
+    object-fit: contain;
+}
+
+.bottom-scroll-up {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #7AB2B2;
+    color: #09637E;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .floorplan-section {
+        text-align: center;
+    }
+    .stats-list {
+        margin: 0 auto;
+    }
+}
+

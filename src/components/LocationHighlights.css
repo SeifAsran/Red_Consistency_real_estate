@@ -1,0 +1,87 @@
+.location-section {
+    background-color: #EBF4F6; /* Palette background */
+    padding: 56px 0;
+    color: #09637E; /* Palette primary */
+}
+
+.highlight-label {
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    color: #7AB2B2; /* Palette accent */
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.main-title {
+    color: #09637E;
+    letter-spacing: -1px;
+}
+
+/* Tabs */
+.tab-container {
+    border-bottom: none;
+}
+
+.tab-container .nav {
+    justify-content: center;
+}
+
+.tab-btn {
+    background: transparent !important;
+    color: #088395 !important; /* Palette secondary */
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 10px 20px !important;
+    transition: all 0.3s ease;
+}
+
+.tab-btn.active {
+    background-color: #7AB2B2 !important; /* Palette accent */
+    color: #09637E !important;
+    font-weight: 700;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid rgba(122, 178, 178, 0.3);
+    opacity: 1;
+}
+
+/* Cards */
+.location-card {
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.location-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-wrapper {
+    min-width: 50px;
+    color: #09637E;
+}
+
+.location-info h4 {
+    color: #09637E;
+}
+
+.travel-time {
+    color: #088395;
+    opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-pills {
+        overflow-x: auto;
+        white-space: nowrap;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+    }
+    
+    .main-title {
+        font-size: 2rem;
+    }
+}
+

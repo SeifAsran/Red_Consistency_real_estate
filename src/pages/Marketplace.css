@@ -1,0 +1,315 @@
+ .marketplace-page-wrap {
+  min-height: 100vh;
+  background: radial-gradient(circle at 0% 0%, #0d3c4b 0%, #021217 55%, #01090d 100%);
+  padding-bottom: 80px;
+}
+
+.marketplace-body {
+  padding: 80px 0 0;
+}
+
+.marketplace-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  padding: 20px 24px;
+  border-radius: 24px;
+  background: linear-gradient(
+    135deg,
+    rgba(5, 42, 53, 0.86),
+    rgba(6, 58, 74, 0.9)
+  );
+  border: 1px solid #7ab2b2;
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(235, 244, 246, 0.02);
+  backdrop-filter: blur(22px);
+}
+
+.filter-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 180px;
+  flex: 1 1 0;
+}
+
+.filter-field label {
+  font-family: var(--font-sans, 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      sans-serif);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+  color: rgba(235, 244, 246, 0.9);
+}
+
+.filter-field input,
+.filter-field select {
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(122, 178, 178, 0.7);
+  padding: 0 16px;
+  background: rgba(3, 22, 28, 0.82);
+  color: #ebf4f6;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      sans-serif;
+  font-size: 0.9rem;
+  outline: none;
+  transition:
+    border-color 200ms ease,
+    box-shadow 200ms ease,
+    background-color 200ms ease;
+}
+
+.filter-field input::placeholder {
+  color: rgba(122, 178, 178, 0.8);
+}
+
+.filter-field select option {
+  color: #021217;
+}
+
+.filter-field input:focus,
+.filter-field select:focus {
+  border-color: #7ab2b2;
+  box-shadow: 0 0 0 1px rgba(122, 178, 178, 0.7);
+  background: rgba(3, 22, 28, 0.96);
+}
+
+.filter-cta {
+  padding: 12px 26px;
+  border-radius: 999px;
+  border: 1px solid #7ab2b2;
+  background: transparent;
+  color: #ebf4f6;
+  font-family: var(--font-luxury, 'CaskoLuxury', serif);
+  font-size: 0.86rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16rem;
+  cursor: pointer;
+  transition:
+    background-color 220ms ease,
+    color 220ms ease,
+    box-shadow 220ms ease,
+    transform 200ms ease;
+  flex-shrink: 0;
+}
+
+.filter-cta:hover {
+  background: #09637e;
+  color: #ebf4f6;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.55);
+  transform: translateY(-1px);
+}
+
+.marketplace-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.marketplace-card {
+  border-radius: 24px;
+  overflow: hidden;
+  background: radial-gradient(circle at 0% 0%, rgba(10, 65, 82, 0.85), rgba(2, 18, 23, 0.96));
+  border: 1px solid rgba(122, 178, 178, 0.75);
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.7),
+    0 0 0 1px rgba(235, 244, 246, 0.02);
+  backdrop-filter: blur(26px);
+  display: flex;
+  flex-direction: column;
+}
+
+.marketplace-card-media {
+  position: relative;
+  overflow: hidden;
+}
+
+.marketplace-card-image {
+  display: block;
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  transform: scale(1.02);
+  transition: transform 500ms ease;
+}
+
+.marketplace-card:hover .marketplace-card-image {
+  transform: scale(1.08);
+}
+
+.marketplace-price-badge {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgba(9, 99, 126, 0.95);
+  color: #ebf4f6;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14rem;
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.7),
+    0 0 0 1px rgba(235, 244, 246, 0.18);
+}
+
+.marketplace-card-body {
+  padding: 22px 22px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.marketplace-title {
+  font-size: 1.1rem;
+  letter-spacing: 0.12rem;
+  text-transform: uppercase;
+  color: #ebf4f6;
+}
+
+.marketplace-location {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      sans-serif;
+  font-size: 0.9rem;
+  color: rgba(235, 244, 246, 0.75);
+}
+
+.marketplace-details-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.detail-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(122, 178, 178, 0.65);
+  background: rgba(2, 18, 23, 0.9);
+  color: rgba(235, 244, 246, 0.85);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      sans-serif;
+  font-size: 0.78rem;
+}
+
+.detail-pill svg {
+  color: #7ab2b2;
+}
+
+.marketplace-cta-btn {
+  margin-top: 14px;
+  align-self: flex-start;
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: 1px solid #7ab2b2;
+  background: transparent;
+  color: #ebf4f6;
+  font-family: var(--font-luxury, 'CaskoLuxury', serif);
+  font-size: 0.86rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16rem;
+  text-decoration: none;
+  transition:
+    background-color 220ms ease,
+    color 220ms ease,
+    box-shadow 220ms ease,
+    transform 200ms ease;
+}
+
+.marketplace-cta-btn:hover {
+  background: #09637e;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.6);
+  transform: translateY(-1px);
+}
+
+.marketplace-list-unit {
+  margin-top: 50px;
+  padding: 24px 26px;
+  border-radius: 24px;
+  background: linear-gradient(
+    135deg,
+    rgba(5, 42, 53, 0.9),
+    rgba(2, 18, 23, 0.98)
+  );
+  border: 1px solid rgba(122, 178, 178, 0.8);
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.7),
+    0 0 0 1px rgba(235, 244, 246, 0.03);
+  backdrop-filter: blur(24px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.list-unit-copy h2 {
+  font-size: 1rem;
+  letter-spacing: 0.14rem;
+  text-transform: uppercase;
+  color: #ebf4f6;
+  margin: 0 0 6px;
+}
+
+.list-unit-copy p {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      sans-serif;
+  font-size: 0.9rem;
+  color: rgba(235, 244, 246, 0.85);
+}
+
+.list-unit-btn {
+  padding-inline: 30px;
+}
+
+@media (max-width: 768px) {
+  .marketplace-body {
+    padding-top: 60px;
+  }
+
+  .marketplace-filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-cta {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .marketplace-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .marketplace-card-image {
+    height: 210px;
+  }
+
+  .marketplace-list-unit {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .list-unit-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 1024px) {
+  .marketplace-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .marketplace-card-image {
+    height: 220px;
+  }
+}
+

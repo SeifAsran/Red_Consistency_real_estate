@@ -1,0 +1,118 @@
+.listings-section {
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 56px 0 !important;
+}
+
+.property-row {
+    border-bottom: 1px solid #EBF4F6;
+    padding-bottom: 80px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: transform 0.8s cubic-bezier(0.2, 0, 0.2, 1), opacity 0.8s ease;
+}
+
+.property-row.reveal-active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.property-title {
+    color: #09637E;
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 1.2;
+    max-width: 90%;
+}
+
+.property-specs {
+    color: #088395;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.property-price {
+    color: #09637E;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Rounded Arrow Button */
+.arrow-btn {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #7AB2B2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.arrow-icon {
+    font-size: 2rem;
+    color: #09637E;
+    transition: transform 0.3s ease;
+}
+
+.property-row:hover .arrow-btn {
+    background-color: #09637E;
+    border-color: #09637E;
+    transform: translateX(10px);
+}
+
+.property-row:hover .arrow-icon {
+    color: #ffffff;
+    transform: rotate(45deg);
+}
+
+/* Image Hover Transition */
+.property-image-container {
+    padding-left: 40px;
+}
+
+.image-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(9, 99, 126, 0.1);
+    clip-path: inset(0 0 0 100%);
+    transition: clip-path 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.property-row.reveal-active .image-wrapper {
+    clip-path: inset(0 0 0 0);
+}
+
+.property-img {
+    transform: scale(1.1);
+    transition: transform 1.2s cubic-bezier(0.2, 0, 0.2, 1);
+    width: 100%;
+    object-fit: cover;
+    height: 450px;
+}
+
+.property-row:hover .property-img {
+    transform: scale(1);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .property-row {
+        flex-direction: column;
+        text-align: left;
+    }
+    .property-image-container {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .property-title {
+        font-size: 1.8rem;
+    }
+    .arrow-btn {
+        width: 60px;
+        height: 60px;
+    }
+}
+

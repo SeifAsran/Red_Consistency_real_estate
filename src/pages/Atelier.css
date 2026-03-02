@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* Atelier page body (already dark in PageHero.css) uses cards for the four items */
+
+.atelier-grid {
+  margin-top: 3rem;
+}
+
+.atelier-card {
+  background: rgba(5, 42, 53, 0.85);
+  border-radius: 20px;
+  padding: 24px 20px;
+  border: 1px solid rgba(122, 178, 178, 0.5);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  height: 100%;
+}
+
+.atelier-card-title {
+  font-family: var(--font-luxury), serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.12rem;
+  text-transform: uppercase;
+  color: #7AB2B2;
+  margin-bottom: 0.75rem;
+}
+
+.atelier-card-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #EBF4F6;
+  opacity: 0.9;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .atelier-card {
+    padding: 20px 18px;
+  }
+}
+

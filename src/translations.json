@@ -1,0 +1,671 @@
+{
+  "ar": {
+    "navbar": {
+      "logo": "المربع الماسي",
+      "navSubheadline": "رؤية إستراتيجية",
+      "navHeadline": "نبتكر للمستقبل",
+      "navDescription": "نؤمن بأن النجاح الحقيقي يتحقق من خلال التعاون المثمر. نعمل بشغف لتحويل الأفكار إلى تجارب بصرية مؤثرة تبني علامات تجارية قوية.",
+      "navCopyright": "© 2023 All rights reserved by المربع الماسي.",
+      "navEmail": "info@di-sq.com",
+      "home": "الرئيسية",
+      "about": "من نحن",
+      "services": "خدماتنا",
+      "gallery": "أعمالنا",
+      "clients": "عملاؤنا",
+      "contact": "تواصل معنا"
+    },
+    "hero": {
+      "title": "المربع الماسي",
+      "description": "مجموعة متخصصة في تقديم حلول الإعلان المتكاملة، نؤمن بأن التطور المستمر هو أساس النجاح، ونعمل بشغف لتحويل الأفكار إلى تجارب بصرية مؤثرة.",
+      "aboutBtn": "من نحن",
+      "servicesBtn": "خدماتنا"
+    },
+    "projects": {
+      "projects": [
+        {
+          "id": 1,
+          "title": "مشروع الهوية البصرية المتكامل"
+        },
+        {
+          "id": 2,
+          "title": "تصميم حملة إعلانية"
+        },
+        {
+          "id": 3,
+          "title": "تجهيز معارض ومؤتمرات"
+        },
+        {
+          "id": 4,
+          "title": "إنتاج مواد ترويجية"
+        },
+        {
+          "id": 5,
+          "title": "تصميم لافتات خارجية"
+        }
+      ],
+      "hoverSentence": "نؤمن بأن التطور المستمر هو أساس النجاح، ونعمل بشغف لتحويل الأفكار إلى تجارب بصرية مؤثرة تبني علامات تجارية قوية.",
+      "viewAllPhotos": "عرض كل الصور"
+    },
+    "clients": {
+      "viewAllSuccess": "عرض جميع قصص النجاح >>",
+      "subtitle": "شركاء النجاح",
+      "title": "عملاؤنا"
+    },
+    "services": {
+      "subHeading": "نقدم أفضل الحلول",
+      "mainHeading": "خدماتنا المتكاملة",
+      "description": "نقدم مجموعة شاملة من الخدمات الإعلانية والتسويقية التي تغطي جميع احتياجات العلامة التجارية من الفكرة وحتى التنفيذ. نركز في خدماتنا على إيصال رسالة العلامة التجارية بأسلوب بصري جذاب ومؤثر.",
+      "servicesList": [
+        "التصميم الإبداعي والجرافيكي",
+        "حلول الطباعة والإنتاج",
+        "تنفيذ اللافتات والعلامات التجارية"
+      ],
+      "viewAllServices": "عرض كافة الخدمات",
+      "visualHeading": "رؤية شاملة",
+      "visualSub": "جودة عالية • إبداع حقيقي • تنفيذ احترافي"
+    },
+    "footer": {
+      "subTitle": "هل تحتاج مساعدة؟",
+      "mainTitle": "تواصل مع المربع الماسي",
+      "email": "info@di-sq.com",
+      "contactBtn": "تواصل معنا",
+      "twitter": "تويتر",
+      "instagram": "إنستغرام",
+      "linkedin": "لينكد إن",
+      "copyright": "© 2023 جميع الحقوق محفوظة لـ المربع الماسي."
+    },
+    "aboutUs": {
+      "subtitle": "المربع الماسي",
+      "title": "من نحن",
+      "displayText1": "نصنع العلامات التجارية بالطريقة الصحيحة",
+      "description1": "نحن مجموعة متخصصة في تقديم خدمات الإعلان المتكاملة، نعتمد في عملنا على منهجية واضحة تقوم على التخطيط المسبق، والإعداد الجيد، والعمل الجاد. نهدف إلى تقديم وتنفيذ أفكار وحلول مبتكرة.",
+      "displayText2": "القوة في الأرقام والنتائج",
+      "description2": "رؤيتنا هي أن نكون الشريك الإعلاني المفضل لعملائنا من خلال تقديم جودة عالية، إبداع حقيقي، وتنفيذ احترافي في جميع مراحل العمل.",
+      "description3": "نؤمن بأن النجاح الحقيقي يتحقق من خلال التعاون المثمر وتبادل الخبرات لتحقيق أهداف مشتركة.",
+      "clientsSubtitle": "شركاء النجاح",
+      "clientsTitle": "عملاؤنا المميزون"
+    },
+    "servicesPage": {
+      "subtitle": "نحن في تطور مستمر",
+      "title": "المربع الماسي",
+      "sectionTitle": "من نحن",
+      "description1": "نحن مجموعة متخصصة في تقديم خدمات الإعلان المتكاملة، نعتمد في عملنا على منهجية واضحة تقوم على التخطيط المسبق، والإعداد الجيد، والعمل الجاد. نهدف إلى تقديم وتنفيذ أفكار وحلول مبتكرة تواكب تطلعات السوق وتدعم نمو العلامات التجارية، بما يسهم في بناء علاقة استراتيجية قوية مع عملائنا قائمة على الثقة والاستمرارية والنجاح المشترك.",
+      "description2": "رؤيتنا هي أن نكون الشريك الإعلاني المفضل لعملائنا من خلال تقديم جودة عالية، إبداع حقيقي، وتنفيذ احترافي في جميع مراحل العمل.",
+      "service1": {
+        "title": "خدمات التصميم الإبداعي والجرافيكي",
+        "description": "نركز في هذه الخدمات على إيصال رسالة العلامة التجارية بأسلوب بصري جذاب ومؤثر يعكس هوية العميل ويعزز حضوره في السوق.",
+        "list": [
+          "تصميم الكتيبات، المنشورات، والملصقات",
+          "تصميم العبوات والعلامات التجارية للمنتجات",
+          "تصميم الرسوم المتحركة والجرافيك المتحرك",
+          "التصور ثلاثي الأبعاد والعرض الإبداعي",
+          "تصميم الإنفوجرافيك وسرد القصص البصرية"
+        ]
+      },
+      "service2": {
+        "title": "خدمات الطباعة والإنتاج",
+        "description": "نستخدم أحدث تقنيات الطباعة لضمان أعلى جودة ممكنة مع الالتزام بالدقة والسرعة في التنفيذ.",
+        "list": [
+          "الطباعة ذات المقاسات الكبيرة (البنرات، الملصقات، الخلفيات، رفوف المتاجر، والستاندات)",
+          "تصنيع اللافتات الداخلية والخارجية",
+          "تصميم وتغليف المركبات بالهوية البصرية",
+          "طباعة المواد الترويجية (المنشورات، الكتيبات، بطاقات الأعمال)",
+          "طباعة تجهيزات المعارض والفعاليات"
+        ]
+      },
+      "service3": {
+        "title": "تنفيذ اللافتات والعلامات التجارية لمتاجر التجزئة",
+        "description": "نحرص على أن تعكس اللافتات هوية العلامة التجارية وتحقق أقصى درجات الوضوح والجاذبية.",
+        "list": [
+          "تصنيع وتركيب اللافتات المضيئة بتقنية LED والنيون",
+          "تصميم وتركيب لافتات الحروف ثلاثية الأبعاد",
+          "تصميم العلامات التجارية للواجهات",
+          "تركيب لوحات الإرشاد والتوجيه"
+        ]
+      },
+      "service4": {
+        "title": "إنتاج المواد الترويجية والهدايا الدعائية",
+        "description": "نوفر حلولاً مبتكرة للهدايا الدعائية التي تعزز تفاعل العملاء مع العلامة التجارية.",
+        "list": [
+          "طباعة مخصصة على التيشيرتات، القبعات، والزي الموحد",
+          "أكواب، أقلام، ذاكرات USB، وإكسسوارات مكتبية تحمل الهوية التجارية",
+          "طباعة التغليف والملصقات",
+          "صناديق هدايا وهدايا مؤسسية مخصصة",
+          "حبال التعليق، بطاقات التعريف، والحقائب الترويجية"
+        ]
+      },
+      "service5": {
+        "title": "تنفيذ الإعلانات الداخلية وإعلانات التجزئة",
+        "description": "نضمن تنفيذ الحملات الإعلانية داخل نقاط البيع بطريقة احترافية تزيد من جذب العملاء وتعزز قرارات الشراء.",
+        "list": [
+          "تنفيذ الإعلانات داخل المراكز التجارية (الشاشات، الأكشاك، صناديق الإضاءة)",
+          "تجهيز العلامات التجارية داخل السوبر ماركت ومحال التجزئة",
+          "تركيب أدوات العرض الترويجية مثل ملصقات الرفوف، المعلقات المتحركة، والستاندات الدعائية",
+          "تنفيذ الرسومات الأرضية والتركيبات الترويجية داخل المتاجر"
+        ]
+      },
+      "partnersTitle": "شركاء النجاح",
+      "partnersDescription": "نفتخر بشراكاتنا مع نخبة من الجهات والشركات الرائدة، حيث تمثل هذه الشراكات أساس نجاحنا واستمراريتنا. نؤمن بأن النجاح الحقيقي يتحقق من خلال التعاون المثمر وتبادل الخبرات لتحقيق أهداف مشتركة.",
+      "contactTitle": "تواصل معنا",
+      "contactDescription": "يسعدنا دائماً التواصل معكم ومناقشة أفكاركم ومشاريعكم.",
+      "website": "الموقع الإلكتروني:",
+      "email": "البريد الإلكتروني:",
+      "phone": "رقم الهاتف:",
+      "address": "العنوان:",
+      "addressValue": "المملكة العربية السعودية – جدة – الفيصلية",
+      "tagline": "المربع الماسي – شريكك الإبداعي نحو نجاح مستدام."
+    },
+    "contactPage": {
+      "subtitle": "تواصل معنا",
+      "title": "المربع الماسي",
+      "sectionTitle": "نحن هنا لمساعدتك",
+      "description": "يسعدنا دائماً التواصل معكم ومناقشة أفكاركم ومشاريعكم. سواء كنت تبحث عن حلول إعلانية متكاملة أو تحتاج إلى استشارة حول علامتك التجارية، نحن هنا لمساعدتك في تحقيق أهدافك.",
+      "formTitle": "أرسل لنا رسالة",
+      "nameLabel": "الاسم",
+      "emailLabel": "البريد الإلكتروني",
+      "phoneLabel": "رقم الهاتف",
+      "messageLabel": "الرسالة",
+      "submitBtn": "إرسال الرسالة",
+      "infoTitle": "معلومات التواصل",
+      "addressLabel": "العنوان",
+      "addressValue": "المملكة العربية السعودية – جدة – الفيصلية",
+      "phoneLabel2": "الهاتف",
+      "emailLabel2": "البريد الإلكتروني",
+      "hoursLabel": "ساعات العمل",
+      "hoursValue": "الأحد - الخميس: 9:00 ص - 6:00 م",
+      "socialTitle": "تابعنا على"
+    },
+    "galleryPage": {
+      "subtitle": "معرض أعمالنا",
+      "title": "المربع الماسي",
+      "sectionTitle": "معرض أعمالنا",
+      "description": "نفتخر بعرض مجموعة مختارة من مشاريعنا التي تعكس إبداعنا وتفانينا في تقديم حلول إعلانية متكاملة. كل مشروع يمثل قصة نجاح وشراكة استراتيجية مع عملائنا المميزين.",
+      "hoverSentence": "نؤمن بأن التطور المستمر هو أساس النجاح، ونعمل بشغف لتحويل الأفكار إلى تجارب بصرية مؤثرة تبني علامات تجارية قوية.",
+      "viewProject": "عرض المشروع",
+      "projects": [
+        {
+          "id": 1,
+          "title": "مشروع الهوية البصرية المتكامل"
+        },
+        {
+          "id": 2,
+          "title": "تصميم حملة إعلانية"
+        },
+        {
+          "id": 3,
+          "title": "تجهيز معارض ومؤتمرات"
+        },
+        {
+          "id": 4,
+          "title": "إنتاج مواد ترويجية"
+        },
+        {
+          "id": 5,
+          "title": "تصميم لافتات خارجية"
+        },
+        {
+          "id": 6,
+          "title": "تصميم جرافيكي إبداعي"
+        },
+        {
+          "id": 7,
+          "title": "إعلانات داخلية"
+        },
+        {
+          "id": 8,
+          "title": "هوية تجارية متكاملة"
+        },
+        {
+          "id": 9,
+          "title": "مواد ترويجية مخصصة"
+        },
+        {
+          "id": 10,
+          "title": "تصميم عبوات المنتجات"
+        },
+        {
+          "id": 11,
+          "title": "لافتات LED مضيئة"
+        },
+        {
+          "id": 12,
+          "title": "تصميم كتيبات ومنشورات"
+        },
+        {
+          "id": 13,
+          "title": "تجهيز فعاليات"
+        },
+        {
+          "id": 14,
+          "title": "تصميم شعارات"
+        },
+        {
+          "id": 15,
+          "title": "إعلانات رقمية"
+        },
+        {
+          "id": 16,
+          "title": "تصميم واجهات متاجر"
+        },
+        {
+          "id": 17,
+          "title": "مواد دعائية مبتكرة"
+        },
+        {
+          "id": 18,
+          "title": "حملات تسويقية متكاملة"
+        }
+      ]
+    },
+    "clientsPage": {
+      "subtitle": "شركاء النجاح",
+      "title": "عملاؤنا المميزون",
+      "sectionTitle": "شراكاتنا الاستراتيجية",
+      "description1": "نفتخر بشراكاتنا مع نخبة من الجهات والشركات الرائدة في مختلف القطاعات، حيث تمثل هذه الشراكات أساس نجاحنا واستمراريتنا. نؤمن بأن النجاح الحقيقي يتحقق من خلال التعاون المثمر وتبادل الخبرات لتحقيق أهداف مشتركة.",
+      "description2": "عملاؤنا هم شريكنا في رحلة النجاح، ونحن ملتزمون بتقديم حلول إعلانية متكاملة تلبي احتياجاتهم وتدعم نمو علاماتهم التجارية في السوق المحلي والعالمي.",
+      "trustTitle": "الثقة والشراكة",
+      "trustDescription1": "كل عميل من عملائنا يمثل قصة نجاح نفتخر بها. من خلال فهم عميق لاحتياجاتهم وأهدافهم، نعمل على تقديم حلول إبداعية ومبتكرة تعزز من حضورهم في السوق وتدعم استراتيجياتهم التسويقية.",
+      "trustDescription2": "نؤمن بأن بناء علاقات طويلة الأمد مع عملائنا هو أساس نجاحنا، لذلك نحرص على تقديم خدمات عالية الجودة تتجاوز التوقعات وتساهم في تحقيق النتائج المرجوة.",
+      "ctaTitle": "كن جزءاً من قصة نجاحنا",
+      "ctaDescription": "إذا كنت تبحث عن شريك إعلاني موثوق يمكنه دعم نمو علامتك التجارية، نحن هنا لمساعدتك.",
+      "ctaButton": "تواصل معنا",
+      "clients": [
+        {
+          "id": 1,
+          "name": "سينابون",
+          "category": "مطاعم"
+        },
+        {
+          "id": 2,
+          "name": "جودي",
+          "category": "تجزئة"
+        },
+        {
+          "id": 3,
+          "name": "هيونداي",
+          "category": "سيارات"
+        },
+        {
+          "id": 4,
+          "name": "جاكوار",
+          "category": "سيارات"
+        },
+        {
+          "id": 5,
+          "name": "كيدزينيا",
+          "category": "ترفيه"
+        },
+        {
+          "id": 6,
+          "name": "مرسيدس",
+          "category": "سيارات"
+        },
+        {
+          "id": 7,
+          "name": "نايك",
+          "category": "رياضة"
+        },
+        {
+          "id": 8,
+          "name": "بيتزا هات",
+          "category": "مطاعم"
+        },
+        {
+          "id": 9,
+          "name": "تومي روماس",
+          "category": "أزياء"
+        },
+        {
+          "id": 10,
+          "name": "تويوتا",
+          "category": "سيارات"
+        },
+        {
+          "id": 11,
+          "name": "فابيانو",
+          "category": "أزياء"
+        },
+        {
+          "id": 12,
+          "name": "زارا",
+          "category": "أزياء"
+        }
+      ]
+    }
+  },
+  "en": {
+    "navbar": {
+      "logo": "DrNoha Square",
+      "navSubheadline": "Strategic Vision",
+      "navHeadline": "Innovating for the Future",
+      "navDescription": "We believe that true success is achieved through fruitful collaboration. We work passionately to transform ideas into impactful visual experiences that build strong brands.",
+      "navCopyright": "© 2023 All rights reserved by DrNoha Square.",
+      "navEmail": "info@di-sq.com",
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "gallery": "Our Work",
+      "clients": "Our Clients",
+      "contact": "Contact Us"
+    },
+    "hero": {
+      "title": "DrNoha Square",
+      "description": "A specialized group in providing integrated advertising solutions, we believe that continuous development is the foundation of success, and we work passionately to transform ideas into impactful visual experiences.",
+      "aboutBtn": "About Us",
+      "servicesBtn": "Our Services"
+    },
+    "projects": {
+      "projects": [
+        {
+          "id": 1,
+          "title": "Integrated Brand Identity Project"
+        },
+        {
+          "id": 2,
+          "title": "Advertising Campaign Design"
+        },
+        {
+          "id": 3,
+          "title": "Exhibitions and Conferences Setup"
+        },
+        {
+          "id": 4,
+          "title": "Promotional Materials Production"
+        },
+        {
+          "id": 5,
+          "title": "Outdoor Signage Design"
+        }
+      ],
+      "hoverSentence": "We believe that continuous development is the foundation of success, and we work passionately to transform ideas into impactful visual experiences that build strong brands.",
+      "viewAllPhotos": "View All Photos"
+    },
+    "clients": {
+      "viewAllSuccess": "View All Success Stories >>",
+      "subtitle": "Success Partners",
+      "title": "Our Clients"
+    },
+    "services": {
+      "subHeading": "We Offer the Best Solutions",
+      "mainHeading": "Our Integrated Services",
+      "description": "We offer a comprehensive range of advertising and marketing services that cover all brand needs from concept to execution. In our services, we focus on delivering the brand message in an attractive and impactful visual style.",
+      "servicesList": [
+        "Creative and Graphic Design",
+        "Printing and Production Solutions",
+        "Signage and Brand Implementation"
+      ],
+      "viewAllServices": "View All Services",
+      "visualHeading": "Comprehensive Vision",
+      "visualSub": "High Quality • True Creativity • Professional Execution"
+    },
+    "footer": {
+      "subTitle": "Need Help?",
+      "mainTitle": "Contact DrNoha Square",
+      "email": "info@di-sq.com",
+      "contactBtn": "Contact Us",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "copyright": "© 2023 All rights reserved by DrNoha Square."
+    },
+    "aboutUs": {
+      "subtitle": "DrNoha Square",
+      "title": "About Us",
+      "displayText1": "We Build Brands the Right Way",
+      "description1": "We are a specialized group in providing integrated advertising services. In our work, we rely on a clear methodology based on prior planning, good preparation, and hard work. We aim to provide and implement innovative ideas and solutions.",
+      "displayText2": "Power in Numbers and Results",
+      "description2": "Our vision is to be the preferred advertising partner for our clients by providing high quality, true creativity, and professional execution in all stages of work.",
+      "description3": "We believe that true success is achieved through fruitful collaboration and exchange of experiences to achieve common goals.",
+      "clientsSubtitle": "Success Partners",
+      "clientsTitle": "Our Distinguished Clients"
+    },
+    "servicesPage": {
+      "subtitle": "We are in constant development",
+      "title": "DrNoha Square",
+      "sectionTitle": "About Us",
+      "description1": "We are a specialized group in providing integrated advertising services. In our work, we rely on a clear methodology based on prior planning, good preparation, and hard work. We aim to provide and implement innovative ideas and solutions that keep pace with market aspirations and support brand growth, contributing to building a strong strategic relationship with our clients based on trust, continuity, and shared success.",
+      "description2": "Our vision is to be the preferred advertising partner for our clients by providing high quality, true creativity, and professional execution in all stages of work.",
+      "service1": {
+        "title": "Creative and Graphic Design Services",
+        "description": "In these services, we focus on delivering the brand message in an attractive and impactful visual style that reflects the client's identity and enhances their market presence.",
+        "list": [
+          "Design of brochures, publications, and posters",
+          "Product packaging and brand design",
+          "Animation and motion graphics design",
+          "3D visualization and creative presentation",
+          "Infographic design and visual storytelling"
+        ]
+      },
+      "service2": {
+        "title": "Printing and Production Services",
+        "description": "We use the latest printing technologies to ensure the highest possible quality while maintaining accuracy and speed in execution.",
+        "list": [
+          "Large format printing (banners, posters, backgrounds, store shelves, and stands)",
+          "Manufacturing of indoor and outdoor signage",
+          "Vehicle design and wrapping with brand identity",
+          "Promotional material printing (publications, brochures, business cards)",
+          "Exhibition and event setup printing"
+        ]
+      },
+      "service3": {
+        "title": "Signage and Brand Implementation for Retail Stores",
+        "description": "We ensure that signage reflects the brand identity and achieves the highest levels of clarity and appeal.",
+        "list": [
+          "Manufacturing and installation of LED and neon illuminated signage",
+          "Design and installation of 3D letter signage",
+          "Storefront brand design",
+          "Installation of guidance and directional boards"
+        ]
+      },
+      "service4": {
+        "title": "Promotional Materials and Promotional Gifts Production",
+        "description": "We provide innovative solutions for promotional gifts that enhance customer interaction with the brand.",
+        "list": [
+          "Custom printing on t-shirts, caps, and uniforms",
+          "Cups, pens, USB drives, and office accessories with brand identity",
+          "Packaging and label printing",
+          "Custom gift boxes and corporate gifts",
+          "Hanging ropes, ID cards, and promotional bags"
+        ]
+      },
+      "service5": {
+        "title": "In-Store Advertising and Retail Advertising Implementation",
+        "description": "We ensure professional execution of advertising campaigns within points of sale in a way that increases customer attraction and enhances purchasing decisions.",
+        "list": [
+          "In-mall advertising execution (screens, kiosks, light boxes)",
+          "Brand setup inside supermarkets and retail stores",
+          "Installation of promotional display tools such as shelf labels, hanging displays, and promotional stands",
+          "Floor graphics and promotional installations inside stores"
+        ]
+      },
+      "partnersTitle": "Success Partners",
+      "partnersDescription": "We are proud of our partnerships with a select group of leading entities and companies, as these partnerships represent the foundation of our success and continuity. We believe that true success is achieved through fruitful collaboration and exchange of experiences to achieve common goals.",
+      "contactTitle": "Contact Us",
+      "contactDescription": "We are always happy to communicate with you and discuss your ideas and projects.",
+      "website": "Website:",
+      "email": "Email:",
+      "phone": "Phone:",
+      "address": "Address:",
+      "addressValue": "Saudi Arabia – Jeddah – Al-Faisaliyah",
+      "tagline": "DrNoha Square – Your creative partner towards sustainable success."
+    },
+    "contactPage": {
+      "subtitle": "Contact Us",
+      "title": "DrNoha Square",
+      "sectionTitle": "We're Here to Help",
+      "description": "We are always happy to communicate with you and discuss your ideas and projects. Whether you're looking for integrated advertising solutions or need consultation about your brand, we're here to help you achieve your goals.",
+      "formTitle": "Send Us a Message",
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "messageLabel": "Message",
+      "submitBtn": "Send Message",
+      "infoTitle": "Contact Information",
+      "addressLabel": "Address",
+      "addressValue": "Saudi Arabia – Jeddah – Al-Faisaliyah",
+      "phoneLabel2": "Phone",
+      "emailLabel2": "Email",
+      "hoursLabel": "Working Hours",
+      "hoursValue": "Sunday - Thursday: 9:00 AM - 6:00 PM",
+      "socialTitle": "Follow Us"
+    },
+    "galleryPage": {
+      "subtitle": "Our Work Gallery",
+      "title": "DrNoha Square",
+      "sectionTitle": "Our Work Gallery",
+      "description": "We are proud to showcase a selected collection of our projects that reflect our creativity and dedication to providing integrated advertising solutions. Each project represents a success story and strategic partnership with our distinguished clients.",
+      "hoverSentence": "We believe that continuous development is the foundation of success, and we work passionately to transform ideas into impactful visual experiences that build strong brands.",
+      "viewProject": "View Project",
+      "projects": [
+        {
+          "id": 1,
+          "title": "Integrated Brand Identity Project"
+        },
+        {
+          "id": 2,
+          "title": "Advertising Campaign Design"
+        },
+        {
+          "id": 3,
+          "title": "Exhibitions and Conferences Setup"
+        },
+        {
+          "id": 4,
+          "title": "Promotional Materials Production"
+        },
+        {
+          "id": 5,
+          "title": "Outdoor Signage Design"
+        },
+        {
+          "id": 6,
+          "title": "Creative Graphic Design"
+        },
+        {
+          "id": 7,
+          "title": "Indoor Advertising"
+        },
+        {
+          "id": 8,
+          "title": "Integrated Brand Identity"
+        },
+        {
+          "id": 9,
+          "title": "Custom Promotional Materials"
+        },
+        {
+          "id": 10,
+          "title": "Product Packaging Design"
+        },
+        {
+          "id": 11,
+          "title": "LED Illuminated Signage"
+        },
+        {
+          "id": 12,
+          "title": "Brochures and Publications Design"
+        },
+        {
+          "id": 13,
+          "title": "Event Setup"
+        },
+        {
+          "id": 14,
+          "title": "Logo Design"
+        },
+        {
+          "id": 15,
+          "title": "Digital Advertising"
+        },
+        {
+          "id": 16,
+          "title": "Storefront Design"
+        },
+        {
+          "id": 17,
+          "title": "Innovative Promotional Materials"
+        },
+        {
+          "id": 18,
+          "title": "Integrated Marketing Campaigns"
+        }
+      ]
+    },
+    "clientsPage": {
+      "subtitle": "Success Partners",
+      "title": "Our Distinguished Clients",
+      "sectionTitle": "Our Strategic Partnerships",
+      "description1": "We are proud of our partnerships with a select group of leading entities and companies across various sectors, as these partnerships represent the foundation of our success and continuity. We believe that true success is achieved through fruitful collaboration and exchange of experiences to achieve common goals.",
+      "description2": "Our clients are our partners in the journey of success, and we are committed to providing integrated advertising solutions that meet their needs and support the growth of their brands in local and global markets.",
+      "trustTitle": "Trust and Partnership",
+      "trustDescription1": "Each of our clients represents a success story we are proud of. Through a deep understanding of their needs and goals, we work to provide creative and innovative solutions that enhance their market presence and support their marketing strategies.",
+      "trustDescription2": "We believe that building long-term relationships with our clients is the foundation of our success, so we are committed to providing high-quality services that exceed expectations and contribute to achieving desired results.",
+      "ctaTitle": "Be Part of Our Success Story",
+      "ctaDescription": "If you're looking for a trusted advertising partner who can support your brand growth, we're here to help.",
+      "ctaButton": "Contact Us",
+      "clients": [
+        {
+          "id": 1,
+          "name": "Cinnabon",
+          "category": "Restaurants"
+        },
+        {
+          "id": 2,
+          "name": "Judy",
+          "category": "Retail"
+        },
+        {
+          "id": 3,
+          "name": "Hyundai",
+          "category": "Automotive"
+        },
+        {
+          "id": 4,
+          "name": "Jaguar",
+          "category": "Automotive"
+        },
+        {
+          "id": 5,
+          "name": "KidZania",
+          "category": "Entertainment"
+        },
+        {
+          "id": 6,
+          "name": "Mercedes",
+          "category": "Automotive"
+        },
+        {
+          "id": 7,
+          "name": "Nike",
+          "category": "Sports"
+        },
+        {
+          "id": 8,
+          "name": "Pizza Hut",
+          "category": "Restaurants"
+        },
+        {
+          "id": 9,
+          "name": "Tommy Hilfiger",
+          "category": "Fashion"
+        },
+        {
+          "id": 10,
+          "name": "Toyota",
+          "category": "Automotive"
+        },
+        {
+          "id": 11,
+          "name": "Fabiano",
+          "category": "Fashion"
+        },
+        {
+          "id": 12,
+          "name": "Zara",
+          "category": "Fashion"
+        }
+      ]
+    }
+  }
+}
+
